@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Calculator" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="operatorButton" parent="commonbutton">
+        <item name="android:textColor">#F6A109</item>
+        <item name="android:backgroundTint">#6620E9</item>
+        <item name="android:shadowColor">#D8CF82</item>
+    </style>
+    <style name="digitbutton" parent="commonbutton">
+
+        <item name="android:textColor">@color/white</item>
+        <item name="android:backgroundTint">#DB20E9</item>
+        <item name="android:shadowColor">@color/white</item>
+
+
+    </style>
+    <style name="commonbutton" parent="Widget.MaterialComponents.FloatingActionButton" >
+        <item name="android:layout_width">75dp</item>
+        <item name="android:layout_height">75dp</item>
+        <item name="android:backgroundTint">#DB20E9</item>
+        <item name="cornerRadius">20dp</item>
+        <item name="android:textSize">25dp</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+</resources>
